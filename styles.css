@@ -518,7 +518,7 @@ text-align: right;
   text-align: center;
 }
 
-@media (max-width:415px){
+@media (max-width:515px){
   
   .second{
    position:absolute;
