@@ -4,7 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;600&display=swap');
 
 body {
-  background-color: #61bece;
+  background-color: #CDF0EA;
+  
+font-family: raleway, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
 }
 .navbar {
   background-color: transparent !important;
@@ -18,7 +24,11 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Lobster', cursive;
+ font-family: philosopher, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
   padding: 0 100px;
   color: r#000;
   font-size: 3.125rem;
@@ -66,7 +76,7 @@ box-sizing:border-box;
 }
 .navbar .container-fluid :hover {
     transition: 0.8s;
-  color: rgb(63, 3, 202)  !important;
+  color: #9b79eb !important;
 }
 
 .nav-item {
@@ -87,7 +97,7 @@ box-sizing:border-box;
   display: flex;
   margin: 10px auto auto auto;
   width: 80%;
-  filter: drop-shadow(0 0 0.80rem rgb(0, 4, 17));
+  filter: drop-shadow(0 0 0.1rem rgb(0, 4, 17));
 }
 
 
@@ -101,14 +111,22 @@ box-sizing:border-box;
   width: 55%; 
 
   border-top-right-radius: 40px;
-  background-color: #cfcfe2;
+  background-color: #dfeaf1;
 }
 
 
 .second h1 {
   font-size: 50px;
  
-  font-family: 'Montserrat Regular 400', sans-serif;
+ 
+
+  font-family: philosopher, sans-serif;
+
+  font-weight: 400;
+  
+  font-style: normal;
+  
+  
   line-height: 25vh;
 }
 .second:hover h1{
@@ -121,7 +139,13 @@ box-sizing:border-box;
 .second p {
   width: 80%;
   margin: auto;
-  font-family: 'Montserrat Regular 400', sans-serif;
+  font-size: 18px;
+  
+font-family: raleway, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
 }
 
 .first {
@@ -131,13 +155,17 @@ box-sizing:border-box;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  background-color: #bdbdd6; 
+  background-color: #d4e4eb; 
 
 }
 
 .first h1 {
-  font-family: "Sacramento", cursive;
-  font-weight: bolder;
+  font-family: allura, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
   font-size: 45px;
 }
 
@@ -148,6 +176,7 @@ box-sizing:border-box;
   margin: 24px auto;
   text-align: center;
   font-size: 22px;
+  font-weight: lighter;
 }
 
 /* .abhi{
@@ -197,7 +226,7 @@ box-sizing:border-box;
 
 .img-wrapper ul li
 {
-	background: #bdbdd6;
+	background: #d4e4eb;
 	height: 40px;
 	width: 45px;
   margin:40px 0  ;
@@ -258,13 +287,20 @@ box-sizing:border-box;
 
 .skills-container{
   /* font-family: 'Lobster', cursive; */
-  font-family: 'Montserrat Regular 400', sans-serif;
+ 
+font-family: philosopher, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
   margin:100px auto auto auto;
   padding-top: 100px;
   width: 100%;
   height: 1000px;
   text-align: center;
-  background-color: #d0d0df;
+  background-color: #F9F9F9;
   font-size: 90px;
   color: #09788b;
 }
@@ -382,14 +418,22 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 .education{
   padding-top: 50px;
-  background-color:#61bece;
+  background-color:#bbe1e7;
   height: 850px;
  text-align: center;
- font-family: 'Montserrat Regular 400', sans-serif;
+
 }
 .education h1{
   color: hsl(189, 93%, 17%);
   font-size:70px ;
+  
+font-family: philosopher, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
 }
 .education h3{
   font-size: 40px;
@@ -406,8 +450,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   /* text-align: left; */
 }
 .logog{
-  box-shadow: 15px 15px 5px 5px rgb(61, 135, 204);
-  box-shadow: 15px 15px 5px 5px rgb(61, 135, 204);
+  
+  box-shadow: 15px 15px 5px 5px rgb(105, 148, 189);
 width: 15%;
 float: left;
 margin-right: 50px;
@@ -417,21 +461,21 @@ border-radius: 10px;
 }
 .logos{
   border-radius: 10px;
-  box-shadow: 15px 15px 5px 5px rgb(61, 135, 204);
+  box-shadow: 15px 15px 5px 5px rgb(105, 148, 189);
   width: 20%;
   float: right;
   /* position: relative;
  margin-left: 150px; */
- background-color: #d0d0df;
+ background-color: #b8b8d1;
  backdrop-filter: grayscale(9);
 }
 
 .education-rows:hover .logog{
-  box-shadow: 0 0 8px 8px rgba(5, 5, 230, 0.767);
+  box-shadow: 0 0 8px 8px rgb(60, 123, 182);
   transform: perspective(800px)rotateX(20deg);
 }
 .education-rows:hover .logos{
-  box-shadow: 0 0 8px 8px rgba(5, 5, 230, 0.767);
+  box-shadow: 0 0 8px 8px rgb(60, 123, 182);
   transform: perspective(800px)rotateX(20deg);
 }
 .schooling{
@@ -444,11 +488,18 @@ text-align: right;
 
 .photography{
 
+  font-family: philosopher, sans-serif;
+
+  font-weight: 400;
+  
+  font-style: normal;
+  
+  
   padding-top: 130px;
-  background-color:#cfcfe2;
+  background-color:#F9F9F9;
   height: 2600px;
  text-align: center;
- font-family: 'Montserrat Regular 400', sans-serif;
+
  color: #09788b;
 }
 .photography-text h1{
@@ -593,7 +644,7 @@ text-align: right;
 .second h1 {
   font-size: 40px;
  
-  font-family: 'Montserrat Regular 400', sans-serif;
+ 
   line-height: 15vh;
 }
 .gallery__column {
